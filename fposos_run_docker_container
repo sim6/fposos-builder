@@ -1,0 +1,2 @@
+#!/bin/sh
+docker run --name=fposos-builder --privileged -v /dev/bus/usb:/dev/bus/usb -it fposos/builder
